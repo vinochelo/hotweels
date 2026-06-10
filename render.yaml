@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: hotwheels-scanner-app
+    runtime: node
+    buildCommand: npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.0.0
+      - key: GEMINI_API_KEY
+        sync: false # Render will prompt the user to input this value on creation
