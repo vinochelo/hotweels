@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* --- variables de tema por defecto --- */
+:root, .theme-dark {
+  --bg-primary: #0b0c0e;
+  --bg-secondary: #121318;
+  --bg-card: #191a21;
+  --bg-card-hover: #22242e;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-active: rgba(255, 51, 0, 0.4);
+  
+  /* Gradiente icónico tipo Pista Naranja de Hot Wheels */
+  --accent-gradient: linear-gradient(135deg, #ff3300 0%, #ff6600 50%, #ffaa00 100%);
+  --accent-color: #ff3300;
+  --accent-glow: rgba(255, 51, 0, 0.4);
+  
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  
+  /* Colores de rareza */
+  --color-mainline: #3b82f6; /* azul */
+  --color-th: #10b981; /* verde esmeralda 🔥 */
+  --color-sth: #f59e0b; /* oro/amarillo ⚡ */
+  --color-zamac: #8b5cf6; /* violeta */
+  
+  color-scheme: dark;
+}
+
+.theme-light {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --border-color: rgba(15, 23, 42, 0.08);
+  --border-color-active: rgba(37, 99, 235, 0.4);
+  
+  --accent-gradient: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
+  --accent-color: #2563eb;
+  --accent-glow: rgba(37, 99, 235, 0.2);
+  
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  
+  --color-mainline: #2563eb;
+  --color-th: #059669;
+  --color-sth: #d97706;
+  --color-zamac: #7c3aed;
+  
+  color-scheme: light;
+}
+
+.theme-gt {
+  --bg-primary: #0a0202;
+  --bg-secondary: #140505;
+  --bg-card: #1c0909;
+  --bg-card-hover: #280f0f;
+  --border-color: rgba(255, 0, 60, 0.12);
+  --border-color-active: rgba(255, 0, 60, 0.6);
+  
+  --accent-gradient: linear-gradient(135deg, #ff003c 0%, #cc002d 50%, #990022 100%);
+  --accent-color: #ff003c;
+  --accent-glow: rgba(255, 0, 60, 0.4);
+  
+  --text-primary: #ffffff;
+  --text-secondary: #fda4af;
+  --text-muted: #f43f5e;
+  
+  --color-mainline: #ef4444;
+  --color-th: #10b981;
+  --color-sth: #f59e0b;
+  --color-zamac: #8b5cf6;
+  
+  color-scheme: dark;
+}
+
+.theme-banana {
+  --bg-primary: #0b0b02;
+  --bg-secondary: #141405;
+  --bg-card: #1d1c08;
+  --bg-card-hover: #2a290e;
+  --border-color: rgba(234, 179, 8, 0.15);
+  --border-color-active: rgba(234, 179, 8, 0.6);
+  
+  --accent-gradient: linear-gradient(135deg, #eab308 0%, #facc15 50%, #fef08a 100%);
+  --accent-color: #eab308;
+  --accent-glow: rgba(234, 179, 8, 0.4);
+  
+  --text-primary: #ffffff;
+  --text-secondary: #fef08a;
+  --text-muted: #ca8a04;
+  
+  --color-mainline: #ca8a04;
+  --color-th: #10b981;
+  --color-sth: #f59e0b;
+  --color-zamac: #8b5cf6;
+  
+  color-scheme: dark;
+}
+
+/* --- estilos globales --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* --- scrollbar personalizado --- */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
+
+/* --- utilidades de vidrio (glassmorphism) --- */
+.glass-panel {
+  background: rgba(18, 19, 24, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+}
+
+.glass-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-color-active);
+  box-shadow: 0 12px 20px -8px rgba(0, 0, 0, 0.5), 0 0 20px 0px rgba(255, 51, 0, 0.05);
+  background-color: var(--bg-card-hover);
+}
+
+/* --- botones --- */
+.btn {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background: var(--accent-gradient);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(255, 51, 0, 0.3);
+}
+
+.btn-primary:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(255, 51, 0, 0.5);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-danger {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.btn-danger:hover {
+  background: rgba(239, 68, 68, 0.25);
+  border-color: #ef4444;
+}
+
+/* --- animaciones --- */
+@keyframes laser-scan {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+.laser-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #ff3300, #ffaa00, #ff3300, transparent);
+  box-shadow: 0 0 12px 3px rgba(255, 51, 0, 0.8);
+  animation: laser-scan 4s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(255, 51, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 51, 0, 0.5);
+  }
+}
+
+.glow-active {
+  animation: pulse-glow 2s infinite;
+  border-color: var(--accent-color);
+}
+
+/* --- insignias de rareza --- */
+.badge-rarity {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-transform: uppercase;
+}
+
+.rarity-mainline {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.rarity-th {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
+}
+
+.rarity-sth {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+}
+
+.rarity-zamac {
+  background: rgba(139, 92, 246, 0.15);
+  color: #a78bfa;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}

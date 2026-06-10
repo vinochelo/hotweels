@@ -1,0 +1,842 @@
+[
+  {
+    "toyNum": "HTF15",
+    "colNum": "008/250",
+    "series": "HW First Response Mini Collection (2024)",
+    "name": "'47 Chevy Fleetline",
+    "color": "Black",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/ChevroletFleetline.jpg/revision/latest?cb=20231012052604"
+  },
+  {
+    "toyNum": "HTF16",
+    "colNum": "031/250",
+    "series": "HW Fast Transit Mini Collection (2024)",
+    "name": "Ain't Fare",
+    "color": "Black",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/80/WorldTourFare.jpg/revision/latest?cb=20231117073319"
+  },
+  {
+    "toyNum": "HTF17",
+    "colNum": "072/250",
+    "series": "Experimotors Mini Collection (2024)",
+    "name": "Tooligan",
+    "color": "Pink",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/HWTooligan.jpg/revision/latest?cb=20231217070915"
+  },
+  {
+    "toyNum": "HTF18",
+    "colNum": "100/250",
+    "series": "Rod Squad Mini Collection (2024)",
+    "name": "Custom '53 Chevy",
+    "color": "Lavender",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/31/2024_Custom_%2753_Chevy.jpg/revision/latest?cb=20250128164802"
+  },
+  {
+    "toyNum": "HTF19",
+    "colNum": "106/250",
+    "series": "Batman Mini Collection (2024)",
+    "name": "Batman Forever Batmobile",
+    "color": "Black",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/12/2024_Batman_Thunt_Left_Side.JPG/revision/latest?cb=20250307022944"
+  },
+  {
+    "toyNum": "HTF20",
+    "colNum": "129/250",
+    "series": "HW Green Speed Mini Collection (2024)",
+    "name": "Ford Mustang Mach-E 1400",
+    "color": "Dark blue",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/82/2024_Ford_Mustang_Mach-E_1400.jpg/revision/latest?cb=20250128164901"
+  },
+  {
+    "toyNum": "HTF21",
+    "colNum": "141/250",
+    "series": "HW Ride-Ons Mini Collection (2024)",
+    "name": "Draggin' Wagon",
+    "color": "Yellow",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5e/2024_Draggin_Wagon.jpg/revision/latest?cb=20250128164924"
+  },
+  {
+    "toyNum": "HTF22",
+    "colNum": "151/250",
+    "series": "HW Art Cars Mini Collection (2024)",
+    "name": "Purple Passion",
+    "color": "Matte blue",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5e/ArtPassion.jpg/revision/latest?cb=20240409120630"
+  },
+  {
+    "toyNum": "HTF23",
+    "colNum": "159/250",
+    "series": "HW Metro Mini Collection (2024)",
+    "name": "Honda Super Cub Custom",
+    "color": "Dark gray",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/bd/HondaMetroBike.jpg/revision/latest?cb=20240908133958"
+  },
+  {
+    "toyNum": "HTF24",
+    "colNum": "183/250",
+    "series": "HW Track Champs Mini Collection (2024)",
+    "name": "Bone Shaker",
+    "color": "White",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/31/2024_Bone_Shaker.jpg/revision/latest?cb=20250128164950"
+  },
+  {
+    "toyNum": "HTF25",
+    "colNum": "200/250",
+    "series": "Fast Foodie Mini Collection (2024)",
+    "name": "Car-de-Asada",
+    "color": "Blue",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e0/CarDeAsada.jpg/revision/latest?cb=20240619125554"
+  },
+  {
+    "toyNum": "HTF26",
+    "colNum": "216/250",
+    "series": "HW Vans Mini Collection (2024)",
+    "name": "Hot Wheels Ford Transit Connect",
+    "color": "White",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg/revision/latest?cb=20240702101421"
+  },
+  {
+    "toyNum": "HTF28",
+    "colNum": "236/250",
+    "series": "HW Rolling Metal Mini Collection (2024)",
+    "name": "DMC DeLorean",
+    "color": "[[ZAMAC]]",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/48/RollingDeLorean.jpg/revision/latest?cb=20240803080955"
+  },
+  {
+    "toyNum": "HTB02",
+    "colNum": "230/250",
+    "series": "HW Celebration Racers Mini Collection (2024)",
+    "name": "'59 Chevy Bel Air",
+    "color": "Black",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/89/CelebrationImpala.jpg/revision/latest?cb=20241013021328"
+  },
+  {
+    "toyNum": "HTF29",
+    "colNum": "245/250",
+    "series": "HW Dirt Mini Collection (2024)",
+    "name": "Porsche 928S Safari",
+    "color": "Burgundy",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/2f/STH.png/revision/latest?cb=20230422012711"
+  },
+  {
+    "toyNum": "HTF30",
+    "colNum": "023/250",
+    "series": "Factory Fresh Mini Collection (2024)",
+    "name": "Ford Escort RS2000",
+    "color": "[[Spectraflame]] Green",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a4/2024_STH_A_CASE_FOERD_ESCORT_RS2000.jpg/revision/latest?cb=20230926075432"
+  },
+  {
+    "toyNum": "HTF31",
+    "colNum": "032/250",
+    "series": "HW Dream Garage Mini Collection (2024)",
+    "name": "'18 Camaro SS",
+    "color": "[[Spectraflame]] Black",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/2024_STH_B_CASE_18_Camaro_SS.jpg/revision/latest?cb=20230926075655"
+  },
+  {
+    "toyNum": "HTF32",
+    "colNum": "067/250",
+    "series": "HW Roadsters Mini Collection (2024)",
+    "name": "BMW 507",
+    "color": "[[Spectraflame]] ''Gelb''",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7e/2024_STH_C_CASE_BMW_507.jpg/revision/latest?cb=20231030114324"
+  },
+  {
+    "toyNum": "HTF33",
+    "colNum": "082/250",
+    "series": "HW Modified Mini Collection (2024)",
+    "name": "'89 Mercedes-Benz 560 SEC AMG",
+    "color": "[[Spectraflame]] Red",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7c/2024_STH_D_CASE_benz_560.jpg/revision/latest?cb=20240102075715"
+  },
+  {
+    "toyNum": "HTF34",
+    "colNum": "117/250",
+    "series": "Compact Kings Mini Collection (2024)",
+    "name": "'60s Fiat 500D Modificado",
+    "color": "[[Spectraflame]] gold",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b4/2024_STH_Fiat.jpg/revision/latest?cb=20250402024252"
+  },
+  {
+    "toyNum": "HTF35",
+    "colNum": "132/250",
+    "series": "HW Hot Trucks Mini Collection (2024)",
+    "name": "'71 El Camino",
+    "color": "[[Spectraflame]] purple",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1b/2024_STH_E_CASE_EL_CAMINO.jpg/revision/latest?cb=20240102075930"
+  },
+  {
+    "toyNum": "HTF36",
+    "colNum": "144/250",
+    "series": "HW Turbo Mini Collection (2024)",
+    "name": "Audi 90 quattro",
+    "color": "[[Spectraflame]] dark blue",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/ab/AUDI_90_QUATTRO.jpg/revision/latest?cb=20240302114415"
+  },
+  {
+    "toyNum": "HTF37",
+    "colNum": "153/250",
+    "series": "HW Reverse Rake Mini Collection (2024)",
+    "name": "Volvo P1800 Gasser",
+    "color": "[[Spectraflame]] blue",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e1/VOLVO_P1800_GASSER01.jpg/revision/latest?cb=20240419014955"
+  },
+  {
+    "toyNum": "HTF38",
+    "colNum": "169/250",
+    "series": "HW J-Imports Mini Collection (2024)",
+    "name": "Mitsubishi Pajero Evolution",
+    "color": "[[Spectraflame]] copper",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/82/PAJERO.jpg/revision/latest?cb=20240418132452"
+  },
+  {
+    "toyNum": "HTF39",
+    "colNum": "145/250",
+    "series": "HW Race Day Mini Collection (2024)",
+    "name": "Mazda 787B",
+    "color": "[[Spectraflame]] orange",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Charge787BSTH.jpg/revision/latest?cb=20240619125741"
+  },
+  {
+    "toyNum": "HTF40",
+    "colNum": "206/250",
+    "series": "Muscle Mania Mini Collection (2024)",
+    "name": "'77 Pontiac Firebird T/A",
+    "color": "[[Spectraflame]] black",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/78/Pontiac_firebird.jpg/revision/latest?cb=20240612115511"
+  },
+  {
+    "toyNum": "HTF41",
+    "colNum": "211/250",
+    "series": "HW: The '90s Mini Collection (2024)",
+    "name": "'96 Nissan 180SX Type X",
+    "color": "[[Spectraflame|Spectraflane]] Dark Dlue",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e1/96_Nissan_180sx_type_R.jpg/revision/latest?cb=20240612115602"
+  },
+  {
+    "toyNum": "HTF42",
+    "colNum": "231/250",
+    "series": "Quarter Mile Heroes Mini Collection (2024)",
+    "name": "Celero GT",
+    "color": "[[Spectraflame]] purple",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/42/Tiaozi-%E5%A1%9E%E7%BD%97GT%E8%B6%85%E5%AE%9D.jpg/revision/latest?cb=20240711015354"
+  },
+  {
+    "toyNum": "HTF43",
+    "colNum": "239/250",
+    "series": "HW Exotics Mini Collection (2024)",
+    "name": "Lamborghini Huracán LP 620-2 Super Trofeo",
+    "color": "[[Spectraflame]] red",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1b/2025_Lamborghini_STH.jpg/revision/latest?cb=20250704124914"
+  },
+  {
+    "toyNum": "HTF44",
+    "colNum": "249/250",
+    "series": "Then and Now Mini Collection (2024)",
+    "name": "'83 Chevy Silverado",
+    "color": "[[Spectraflame]] blue",
+    "type": "TH",
+    "year": 2024,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/95/2024_Then_and_Now_STH.jpg/revision/latest?cb=20250223082848"
+  },
+  {
+    "toyNum": "JBC20",
+    "colNum": "017/250",
+    "series": "HW First Response Mini Collection (2025)",
+    "name": "Ford Performance Supervan 4",
+    "color": "Red",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/83/FirstResponseSupervan.jpg/revision/latest?cb=20241111104248"
+  },
+  {
+    "toyNum": "JBC21",
+    "colNum": "032/250",
+    "series": "HW Designed By Mini Collection (2025)",
+    "name": "Fish'd & Chip'd",
+    "color": "Brown",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/98/Fish%27dandChip%27d.jpg/revision/latest?cb=20241109071953"
+  },
+  {
+    "toyNum": "JBC22",
+    "colNum": "057/250",
+    "series": "HW Metro Mini Collection (2025)",
+    "name": "Mailed It!",
+    "color": "Metalflake plum pearl",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/8f/LubetskyMailedIt.jpg/revision/latest?cb=20241125121043"
+  },
+  {
+    "toyNum": "JBC23",
+    "colNum": "095/250",
+    "series": "HW Ride-Ons Mini Collection (2025)",
+    "name": "Pedal Driver",
+    "color": "Red",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/86/TreasurePedal.jpg/revision/latest?cb=20250113141530"
+  },
+  {
+    "toyNum": "JBC24",
+    "colNum": "110/250",
+    "series": "X-Raycers Mini Collection (2025)",
+    "name": "Rig Storm",
+    "color": "Transparent Plum",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/65/2025_Rig_Storm.jpg/revision/latest?cb=20250409033332"
+  },
+  {
+    "toyNum": "JBC25",
+    "colNum": "141/250",
+    "series": "HW J-Imports Mini Collection (2025)",
+    "name": "'85 Honda City Turbo II",
+    "color": "Teal",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/58/1985HondaCity.jpg/revision/latest?cb=20250120090624"
+  },
+  {
+    "toyNum": "JBC26",
+    "colNum": "143/250",
+    "series": "HW Celebration Racers Mini Collection (2025)",
+    "name": "Birthday Burner",
+    "color": "Brown",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/TreasureBurner.jpg/revision/latest?cb=20250224122255"
+  },
+  {
+    "toyNum": "JBC28",
+    "colNum": "180/250",
+    "series": "Fast Foodie Mini Collection (2025)",
+    "name": "Chill Mill",
+    "color": "Metalflake Plum Pearl",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1d/2025_Chill_Mill_%28HWLR%29.jpg/revision/latest?cb=20250608031129"
+  },
+  {
+    "toyNum": "JBC27",
+    "colNum": "168/250",
+    "series": "HW EV Mini Collection (2025)",
+    "name": "Nissan Leaf NISMO RC 02",
+    "color": "Lime green",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/2f/LeafNISMO.jpg/revision/latest?cb=20250416123651"
+  },
+  {
+    "toyNum": "JBC29",
+    "colNum": "202/250",
+    "series": "Track Aces Mini Collection (2025)",
+    "name": "Chevroletor",
+    "color": "Metalflake navy blue",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/2025_General_Motors_Chevroletor.jpg/revision/latest?cb=20250713035904"
+  },
+  {
+    "toyNum": "JBC30",
+    "colNum": "212/250",
+    "series": "Compact Kings Mini Collection (2025)",
+    "name": "Honda S800 Racing",
+    "color": "Orange",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a9/1968HondaS800.jpg/revision/latest?cb=20250716115057"
+  },
+  {
+    "toyNum": "JBC31",
+    "colNum": "229/250",
+    "series": "Experimotors Mini Collection (2025)",
+    "name": "Shark Bite",
+    "color": "Green",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b1/2025_Shark_Bite.jpg/revision/latest?cb=20251009182807"
+  },
+  {
+    "toyNum": "JBC32",
+    "colNum": "235/250",
+    "series": "HW Moto Mini Collection (2025)",
+    "name": "1966 Triumph Tiger 100",
+    "color": "Green",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9b/TriumphRaceBike.jpg/revision/latest?cb=20250715130457"
+  },
+  {
+    "toyNum": "JBC33",
+    "colNum": "246/250",
+    "series": "Wild Widebody Mini Collection (2025)",
+    "name": "'84 Audi Sport quattro",
+    "color": "Metalflake silver",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/63/1984quattro.jpg/revision/latest?cb=20250930223658"
+  },
+  {
+    "toyNum": "JBC34",
+    "colNum": "249/250",
+    "series": "",
+    "name": "Triumph TR6",
+    "color": "Gray",
+    "type": "TH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/ae/2025_Triumph_TR6.jpg/revision/latest?cb=20260121154637"
+  },
+  {
+    "toyNum": "JBC35",
+    "colNum": "016/250",
+    "series": "Factory Fresh Mini Collection (2025)",
+    "name": "'87 Audi quattro",
+    "color": "[[Spectraflame]] seafoam green",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/c/cf/%2787_AUDI_AUQTTRO.jpg/revision/latest?cb=20250811141324"
+  },
+  {
+    "toyNum": "JBC36",
+    "colNum": "046/250",
+    "series": "Rod Squad Mini Collection (2025)",
+    "name": "Hirohata Merc",
+    "color": "[[Spectraflame]] purple",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/8d/HIROHATA_MERC.jpg/revision/latest?cb=20250811141417"
+  },
+  {
+    "toyNum": "JBC37",
+    "colNum": "061/250",
+    "series": "HW Art Cars Mini Collection (2025)",
+    "name": "Hi-Roller II",
+    "color": "[[Spectraflame]] black",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e3/HiRollerII.jpg/revision/latest?cb=20250811141535"
+  },
+  {
+    "toyNum": "JBC38",
+    "colNum": "093/250",
+    "series": "HW Hot Trucks Mini Collection (2025)",
+    "name": "1975 Datsun Sunny Truck (B120)",
+    "color": "[[Spectraflame]] blue",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d2/1975_Datsun_Sunny_Truck_%28B120%29.jpg/revision/latest?cb=20250811141620"
+  },
+  {
+    "toyNum": "JBC39",
+    "colNum": "107/250",
+    "series": "HW Dream Garage Mini Collection (2025)",
+    "name": "Aston Martin DB4GT High-Speed Edition",
+    "color": "[[Spectraflame]] yellow",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/3b/Aston_Martin_DB4GT_High-Speed_Edition.jpg/revision/latest?cb=20250811141710"
+  },
+  {
+    "toyNum": "JBC40",
+    "colNum": "130/250",
+    "series": "HW Dirt Mini Collection (2025)",
+    "name": "'20 Jeep Gladiator",
+    "color": "[[Spectraflame]] black",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/29/20Jeep_Gladiator.jpg/revision/latest?cb=20250811142017"
+  },
+  {
+    "toyNum": "JBC41",
+    "colNum": "154/250",
+    "series": "Safari Mode Mini Collection (2025)",
+    "name": "Porsche 911 Rallye",
+    "color": "[[Spectraflame]] green",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/PORSCHE_911_RALLYE.jpg/revision/latest?cb=20250811142214"
+  },
+  {
+    "toyNum": "JBC42",
+    "colNum": "175/250",
+    "series": "Mustang 60th Mini Collection (2025)",
+    "name": "'71 Mustang Funny Car",
+    "color": "[[Spectraflame]] red",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e5/71_Mustang_Funny_Car.jpg/revision/latest?cb=20250811142457"
+  },
+  {
+    "toyNum": "JBC43",
+    "colNum": "182/250",
+    "series": "HW Reverse Rake Mini Collection (2025)",
+    "name": "'62 Corvette Gasser",
+    "color": "[[Spectraflame]] black",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/00/%E2%80%9862_Corvette_Gasser.jpg/revision/latest?cb=20250417135536"
+  },
+  {
+    "toyNum": "JBC44",
+    "colNum": "209/250",
+    "series": "HW Exotics Mini Collection (2025)",
+    "name": "McLaren Speedtail",
+    "color": "[[Spectraflame]] ''Volcano Orange''",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/41/McLaren_Speedtail.jpg/revision/latest?cb=20250417135729"
+  },
+  {
+    "toyNum": "JBC45",
+    "colNum": "221/250",
+    "series": "HW Race Day Mini Collection (2025)",
+    "name": "'94 Bugatti EB110 SS",
+    "color": "[[Spectraflame]] ''Viola''",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d9/%2794_Bugatti_EB110_SS.jpg/revision/latest?cb=20250611142657"
+  },
+  {
+    "toyNum": "JBC46",
+    "colNum": "231/250",
+    "series": "Then and Now Mini Collection (2025)",
+    "name": "'73 Honda Civic Custom",
+    "color": "[[Spectraflame]] red",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/%E2%80%9873_HONDA_CIVICE_CUSTOM.jpg/revision/latest?cb=20250611142344"
+  },
+  {
+    "toyNum": "JBC47",
+    "colNum": "240/250",
+    "series": "Muscle Mania Mini Collection (2025)",
+    "name": "'20 Dodge Charger Hellcat",
+    "color": "[[Spectraflame]] pink",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/%2720_Dodge_Charger_Hellcat.jpg/revision/latest?cb=20250619120143"
+  },
+  {
+    "toyNum": "JBC48",
+    "colNum": "245/250",
+    "series": "HW Wagons Mini Collection (2025)",
+    "name": "BMW M3 Wagon",
+    "color": "[[Spectraflame]] green",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7f/BMW_M3_WAGON.jpg/revision/latest?cb=20250811141045"
+  },
+  {
+    "toyNum": "JBC49",
+    "colNum": "247/250",
+    "series": "Peak Pursuit Mini Collection (2025)",
+    "name": "Ford RS200",
+    "color": "[[Spectraflame]] Gulf Racing Blue",
+    "type": "STH",
+    "year": 2025,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/c/c0/FORD_RS200.jpg/revision/latest?cb=20250811141216"
+  },
+  {
+    "toyNum": "JJM00",
+    "colNum": "009/250",
+    "series": "Nightspeed Mini Collection (2026)",
+    "name": "'87 Buick Regal GNX",
+    "color": "Metalflake Purple",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7e/BuickRegal.jpg/revision/latest?cb=20251101092453"
+  },
+  {
+    "toyNum": "JJM01",
+    "colNum": "029/250",
+    "series": "Drop Tops Mini Collection (2026)",
+    "name": "'92 Dodge Viper RT/10",
+    "color": "White",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a5/1992Viper.jpg/revision/latest?cb=20251015122319"
+  },
+  {
+    "toyNum": "JJM02",
+    "colNum": "058/250",
+    "series": "HW EV Mini Collection (2026)",
+    "name": "Electro Silhouette",
+    "color": "Black",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7f/ElectroSilhouetteTH.jpeg/revision/latest?cb=20251221174800"
+  },
+  {
+    "toyNum": "JJM03",
+    "colNum": "081/250",
+    "series": "X-Raycers Mini Collection (2026)",
+    "name": "Hot Wheengs",
+    "color": "Green",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/59/HotSauce.jpg/revision/latest?cb=20251216110138"
+  },
+  {
+    "toyNum": "JJM04",
+    "colNum": "122/250",
+    "series": "HW Starting Grid Mini Collection (2026)",
+    "name": "Cone Shaker",
+    "color": "Neon green",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d7/HotConez.jpg/revision/latest?cb=20260103111850"
+  },
+  {
+    "toyNum": "JJM05",
+    "colNum": "124/250",
+    "series": "Exoticars Mini Collection (2026)",
+    "name": "2016 Ford GT Race",
+    "color": "Yellow",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/2016FordGTLMGTE.jpg/revision/latest?cb=20260121131507"
+  },
+  {
+    "toyNum": "JJM06",
+    "colNum": "147/250",
+    "series": "HW Dream Garage Mini Collection (2026)",
+    "name": "2 Jet Z",
+    "color": "Metalflake Gold",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f0/THJetZ.jpg/revision/latest?cb=20260303121401"
+  },
+  {
+    "toyNum": "JJM07",
+    "colNum": "162/250",
+    "series": "HW Heavyweights Mini Collection (2026)",
+    "name": "Total Disposal",
+    "color": "Gray",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/bc/%27ToonedTrashTruck.jpg/revision/latest?cb=20260311130221"
+  },
+  {
+    "toyNum": "JJM08",
+    "colNum": "186/250",
+    "series": "HW Mods Mini Collection (2026)",
+    "name": "Amaru GTC",
+    "color": "Blue",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/08/ModsAmaru.jpg/revision/latest?cb=20260425093332"
+  },
+  {
+    "toyNum": "JJM09",
+    "colNum": "196/250",
+    "series": "Sweet Rides Mini Collection (2026)",
+    "name": "Sweet Driver",
+    "color": "White",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5f/CupcakeRacer.jpg/revision/latest?cb=20260513083806"
+  },
+  {
+    "toyNum": "JJM10",
+    "colNum": "217/250",
+    "series": "Hot Wheels Let's Race Mini Collection (2026)",
+    "name": "Mad Manga",
+    "color": "White",
+    "type": "TH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1d/MadManganese.jpg/revision/latest?cb=20260530100101"
+  },
+  {
+    "toyNum": "JJM15",
+    "colNum": "013/250",
+    "series": "Truckin' Along Mini Collection (2026)",
+    "name": "Drift-Ender",
+    "color": "[[Spectraflame]] red",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": ""
+  },
+  {
+    "toyNum": "JJM16",
+    "colNum": "043/250",
+    "series": "Factory Fresh Mini Collection (2026)",
+    "name": "Ford Mustang GTD",
+    "color": "[[Spectraflame]] ''Holographic Blue''",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/Ford_Mustang_GTD.jpg/revision/latest?cb=20251031012434"
+  },
+  {
+    "toyNum": "JJM17",
+    "colNum": "063/250",
+    "series": "Ferrari Mini Collection (2026)",
+    "name": "Ferrari F40 Competizione",
+    "color": "[[Spectraflame]] ''Grigio Nardo''",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b7/NardoF40Comp.jpg/revision/latest?cb=20251111083240"
+  },
+  {
+    "toyNum": "JJM18",
+    "colNum": "095/250",
+    "series": "Layin' Low Mini Collection (2026)",
+    "name": "'64 Impala",
+    "color": "[[Spectraflame]] cyan",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/ImpalaSTH.jpg/revision/latest?cb=20251126104959"
+  },
+  {
+    "toyNum": "JJM19",
+    "colNum": "116/250",
+    "series": "HW Euro Mini Collection (2026)",
+    "name": "'87 Ford Sierra Cosworth",
+    "color": "[[Spectraflame]] hot pink",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/51/2026ML-116B_%28Large%29.JPG/revision/latest?cb=20260208034953"
+  },
+  {
+    "toyNum": "JJM20",
+    "colNum": "159/250",
+    "series": "Drag Racers Mini Collection (2026)",
+    "name": "Honda Civic Custom",
+    "color": "[[Spectraflame]] teal",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/09/2026H_tiaozi.jpg/revision/latest?cb=20251129132835"
+  },
+  {
+    "toyNum": "JJM21",
+    "colNum": "156/250",
+    "series": "Mattel Mini Collection (2026)",
+    "name": "Custom Otto",
+    "color": "[[Spectraflame]] Otto Blue",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/23/STH_OTTO_o4.jpg/revision/latest?cb=20260207140514"
+  },
+  {
+    "toyNum": "JJM22",
+    "colNum": "160/250",
+    "series": "Compact Kings Mini Collection (2026)",
+    "name": "Lotus Sport Elise",
+    "color": "[[Spectraflame]] orange",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/eb/LotusEliseSTH.jpg/revision/latest?cb=20260303121631"
+  },
+  {
+    "toyNum": "JJM23",
+    "colNum": "176/250",
+    "series": "HW J-Imports Mini Collection (2026)",
+    "name": "Subaru Impreza",
+    "color": "[[Spectraflame]] blue",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/22/STHImpreza.jpg/revision/latest?cb=20260410125346"
+  },
+  {
+    "toyNum": "JJM25",
+    "colNum": "222/250",
+    "series": "Tooned Mini Collection (2026)",
+    "name": "'94 Toyota Supra (Tooned)",
+    "color": "[[Spectraflame]] black",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/01/INA.jpg/revision/latest?cb=20250129021727"
+  },
+  {
+    "toyNum": "JJM26",
+    "colNum": "225/250",
+    "series": "Wagons Mini Collection (2026)",
+    "name": "Nissan Maxima Drift Car",
+    "color": "[[Spectraflame]] black",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest?cb=20151025125428"
+  },
+  {
+    "toyNum": "JJM24",
+    "colNum": "208/250",
+    "series": "Then and Now Mini Collection (2026)",
+    "name": "Porsche 911 Carrera RS 2.7",
+    "color": "[[Spectraflame]] root beer",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": ""
+  },
+  {
+    "toyNum": "JJM27",
+    "colNum": "234/250",
+    "series": "HW Dirt Mini Collection (2026)",
+    "name": "'23 Ram 1500",
+    "color": "[[Spectraflame]] purple",
+    "type": "STH",
+    "year": 2026,
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest?cb=20151025125428"
+  }
+]
