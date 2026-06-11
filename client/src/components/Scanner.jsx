@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
+import BulkScanner from './BulkScanner';
 
-export default function Scanner({ onScanResult, serverUrl, geminiKey }) {
+export default function Scanner({ onScanResult, serverUrl, geminiKey, collectionId, onCarSaved }) {
+  const [scannerMode, setScannerMode] = useState('single'); // 'single', 'bulk'
   const [useCamera, setUseCamera] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -122,173 +124,240 @@ export default function Scanner({ onScanResult, serverUrl, geminiKey }) {
   };
 
   return (
-    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
+    <div style={{ maxWidth: scannerMode === 'single' ? '600px' : '800px', margin: '0 auto', padding: '20px', transition: 'max-width 0.3s ease' }}>
       <div className="glass-panel" style={{ borderRadius: '24px', padding: '24px', position: 'relative' }}>
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-          <span>📸</span> Escanear con IA
-        </h2>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '20px' }}>
-          Toma una foto de tu Hot Wheels o sube una imagen de tu galería para que la IA identifique el modelo y sus detalles.
-        </p>
+        
+        {/* Selector de Modo */}
+        <div style={{
+          display: 'flex',
+          background: 'rgba(255, 255, 255, 0.03)',
+          border: '1px solid rgba(255, 255, 255, 0.05)',
+          borderRadius: '12px',
+          padding: '4px',
+          marginBottom: '24px'
+        }}>
+          <button
+            type="button"
+            onClick={() => {
+              stopCamera();
+              setScannerMode('single');
+            }}
+            style={{
+              flex: 1,
+              padding: '10px',
+              borderRadius: '8px',
+              border: 'none',
+              background: scannerMode === 'single' ? 'var(--accent-glow)' : 'transparent',
+              color: scannerMode === 'single' ? '#fff' : 'var(--text-secondary)',
+              cursor: 'pointer',
+              fontWeight: '600',
+              fontFamily: 'Outfit, sans-serif',
+              fontSize: '0.85rem',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            📸 Escáner Individual
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              stopCamera();
+              setScannerMode('bulk');
+            }}
+            style={{
+              flex: 1,
+              padding: '10px',
+              borderRadius: '8px',
+              border: 'none',
+              background: scannerMode === 'bulk' ? 'var(--accent-glow)' : 'transparent',
+              color: scannerMode === 'bulk' ? '#fff' : 'var(--text-secondary)',
+              cursor: 'pointer',
+              fontWeight: '600',
+              fontFamily: 'Outfit, sans-serif',
+              fontSize: '0.85rem',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            📦 Carga en Lote (Fotos)
+          </button>
+        </div>
 
-        {error && (
-          <div style={{
-            background: 'rgba(239, 68, 68, 0.12)',
-            border: '1px solid rgba(239, 68, 68, 0.25)',
-            color: '#f87171',
-            padding: '12px 16px',
-            borderRadius: '12px',
-            marginBottom: '20px',
-            fontSize: '0.85rem'
-          }}>
-            ⚠️ {error}
-          </div>
-        )}
-
-        {/* --- Visor / Área de Escaneo --- */}
-        <div 
-          onDragOver={handleDragOver}
-          onDrop={handleDrop}
-          style={{
-            width: '100%',
-            height: '350px',
-            borderRadius: '16px',
-            border: useCamera ? '2px solid var(--accent-color)' : '2px dashed var(--border-color)',
-            background: '#090a0d',
-            position: 'relative',
-            overflow: 'hidden',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            transition: 'all 0.3s ease',
-            boxShadow: useCamera ? '0 0 25px rgba(255, 51, 0, 0.15)' : 'none'
-          }}
-        >
-          {loading && (
-            <div style={{
-              position: 'absolute',
-              inset: 0,
-              background: 'rgba(11, 12, 14, 0.85)',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              zIndex: 10,
-              gap: '16px'
-            }}>
-              <div style={{
-                width: '50px',
-                height: '50px',
-                border: '4px solid rgba(255, 51, 0, 0.1)',
-                borderTopColor: 'var(--accent-color)',
-                borderRadius: '50%',
-                animation: 'spin 1s linear infinite'
-              }} />
-              <style>{`
-                @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-              `}</style>
-              <div style={{ textAlign: 'center' }}>
-                <p style={{ fontWeight: '600', color: '#fff', fontSize: '1rem' }}>Identificando Auto...</p>
-                <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '4px' }}>
-                  Gemini está analizando los detalles del casting
-                </p>
-              </div>
-            </div>
-          )}
-
-          {useCamera ? (
-            <>
-              <video 
-                ref={videoRef} 
-                autoPlay 
-                playsInline 
-                muted
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
-              <div className="laser-line" />
-              
-              {/* Esquinas del Viewfinder */}
-              <div style={{
-                position: 'absolute',
-                inset: '20px',
-                pointerEvents: 'none',
-                border: '1px solid rgba(255, 255, 255, 0.15)',
-                borderRadius: '8px'
-              }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, width: '20px', height: '20px', borderTop: '4px solid var(--accent-color)', borderLeft: '4px solid var(--accent-color)' }} />
-                <div style={{ position: 'absolute', top: 0, right: 0, width: '20px', height: '20px', borderTop: '4px solid var(--accent-color)', borderRight: '4px solid var(--accent-color)' }} />
-                <div style={{ position: 'absolute', bottom: 0, left: 0, width: '20px', height: '20px', borderBottom: '4px solid var(--accent-color)', borderLeft: '4px solid var(--accent-color)' }} />
-                <div style={{ position: 'absolute', bottom: 0, right: 0, width: '20px', height: '20px', borderBottom: '4px solid var(--accent-color)', borderRight: '4px solid var(--accent-color)' }} />
-              </div>
-            </>
-          ) : (
-            <div style={{ padding: '40px', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ fontSize: '3.5rem', marginBottom: '16px', filter: 'grayscale(0.3)' }}>🚗</div>
-              <p style={{ fontWeight: '600', marginBottom: '8px' }}>Arrastra tu foto aquí</p>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginBottom: '20px' }}>
-                Soporta archivos PNG, JPG o WEBP
-              </p>
-              <button 
-                type="button" 
-                className="btn btn-secondary" 
-                onClick={() => fileInputRef.current?.click()}
-                style={{ fontSize: '0.85rem' }}
-              >
-                Buscar Imagen
-              </button>
-            </div>
-          )}
-
-          <input 
-            type="file" 
-            ref={fileInputRef} 
-            onChange={handleFileChange} 
-            accept="image/*" 
-            style={{ display: 'none' }} 
+        {scannerMode === 'bulk' ? (
+          <BulkScanner 
+            collectionId={collectionId}
+            serverUrl={serverUrl}
+            geminiKey={geminiKey}
+            onCarSaved={onCarSaved}
           />
-        </div>
+        ) : (
+          <>
+            <h2 style={{ fontSize: '1.5rem', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <span>📸</span> Escanear con IA
+            </h2>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '20px' }}>
+              Toma una foto de tu Hot Wheels o sube una imagen de tu galería para que la IA identifique el modelo y sus detalles.
+            </p>
 
-        {/* --- Controles --- */}
-        <div style={{ display: 'flex', gap: '12px', marginTop: '20px' }}>
-          {useCamera ? (
-            <>
-              <button 
-                type="button" 
-                className="btn btn-primary" 
-                onClick={capturePhoto} 
-                style={{ flex: 1 }}
-              >
-                📷 Capturar Foto
-              </button>
-              <button 
-                type="button" 
-                className="btn btn-secondary" 
-                onClick={stopCamera}
-              >
-                Cancelar
-              </button>
-            </>
-          ) : (
-            <>
-              <button 
-                type="button" 
-                className="btn btn-primary" 
-                onClick={startCamera} 
-                style={{ flex: 1 }}
-              >
-                🎥 Usar Cámara
-              </button>
-              <button 
-                type="button" 
-                className="btn btn-secondary" 
-                onClick={() => fileInputRef.current?.click()}
-              >
-                Subir Archivo
-              </button>
-            </>
-          )}
-        </div>
+            {error && (
+              <div style={{
+                background: 'rgba(239, 68, 68, 0.12)',
+                border: '1px solid rgba(239, 68, 68, 0.25)',
+                color: '#f87171',
+                padding: '12px 16px',
+                borderRadius: '12px',
+                marginBottom: '20px',
+                fontSize: '0.85rem'
+              }}>
+                ⚠️ {error}
+              </div>
+            )}
+
+            {/* --- Visor / Área de Escaneo --- */}
+            <div 
+              onDragOver={handleDragOver}
+              onDrop={handleDrop}
+              style={{
+                width: '100%',
+                height: '350px',
+                borderRadius: '16px',
+                border: useCamera ? '2px solid var(--accent-color)' : '2px dashed var(--border-color)',
+                background: '#090a0d',
+                position: 'relative',
+                overflow: 'hidden',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                transition: 'all 0.3s ease',
+                boxShadow: useCamera ? '0 0 25px rgba(255, 51, 0, 0.15)' : 'none'
+              }}
+            >
+              {loading && (
+                <div style={{
+                  position: 'absolute',
+                  inset: 0,
+                  background: 'rgba(11, 12, 14, 0.85)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  zIndex: 10,
+                  gap: '16px'
+                }}>
+                  <div style={{
+                    width: '50px',
+                    height: '50px',
+                    border: '4px solid rgba(255, 51, 0, 0.1)',
+                    borderTopColor: 'var(--accent-color)',
+                    borderRadius: '50%',
+                    animation: 'spin 1s linear infinite'
+                  }} />
+                  <style>{`
+                    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+                  `}</style>
+                  <div style={{ textAlign: 'center' }}>
+                    <p style={{ fontWeight: '600', color: '#fff', fontSize: '1rem' }}>Identificando Auto...</p>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '4px' }}>
+                      Gemini está analizando los detalles del casting
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {useCamera ? (
+                <>
+                  <video 
+                    ref={videoRef} 
+                    autoPlay 
+                    playsInline 
+                    muted
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                  <div className="laser-line" />
+                  
+                  {/* Esquinas del Viewfinder */}
+                  <div style={{
+                    position: 'absolute',
+                    inset: '20px',
+                    pointerEvents: 'none',
+                    border: '1px solid rgba(255, 255, 255, 0.15)',
+                    borderRadius: '8px'
+                  }}>
+                    <div style={{ position: 'absolute', top: 0, left: 0, width: '20px', height: '20px', borderTop: '4px solid var(--accent-color)', borderLeft: '4px solid var(--accent-color)' }} />
+                    <div style={{ position: 'absolute', top: 0, right: 0, width: '20px', height: '20px', borderTop: '4px solid var(--accent-color)', borderRight: '4px solid var(--accent-color)' }} />
+                    <div style={{ position: 'absolute', bottom: 0, left: 0, width: '20px', height: '20px', borderBottom: '4px solid var(--accent-color)', borderLeft: '4px solid var(--accent-color)' }} />
+                    <div style={{ position: 'absolute', bottom: 0, right: 0, width: '20px', height: '20px', borderBottom: '4px solid var(--accent-color)', borderRight: '4px solid var(--accent-color)' }} />
+                  </div>
+                </>
+              ) : (
+                <div style={{ padding: '40px', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                  <div style={{ fontSize: '3.5rem', marginBottom: '16px', filter: 'grayscale(0.3)' }}>🚗</div>
+                  <p style={{ fontWeight: '600', marginBottom: '8px' }}>Arrastra tu foto aquí</p>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginBottom: '20px' }}>
+                    Soporta archivos PNG, JPG o WEBP
+                  </p>
+                  <button 
+                    type="button" 
+                    className="btn btn-secondary" 
+                    onClick={() => fileInputRef.current?.click()}
+                    style={{ fontSize: '0.85rem' }}
+                  >
+                    Buscar Imagen
+                  </button>
+                </div>
+              )}
+
+              <input 
+                type="file" 
+                ref={fileInputRef} 
+                onChange={handleFileChange} 
+                accept="image/*" 
+                style={{ display: 'none' }} 
+              />
+            </div>
+
+            {/* --- Controles --- */}
+            <div style={{ display: 'flex', gap: '12px', marginTop: '20px' }}>
+              {useCamera ? (
+                <>
+                  <button 
+                    type="button" 
+                    className="btn btn-primary" 
+                    onClick={capturePhoto} 
+                    style={{ flex: 1 }}
+                  >
+                    📷 Capturar Foto
+                  </button>
+                  <button 
+                    type="button" 
+                    className="btn btn-secondary" 
+                    onClick={stopCamera}
+                  >
+                    Cancelar
+                  </button>
+                </>
+              ) : (
+                <>
+                  <button 
+                    type="button" 
+                    className="btn btn-primary" 
+                    onClick={startCamera} 
+                    style={{ flex: 1 }}
+                  >
+                    🎥 Usar Cámara
+                  </button>
+                  <button 
+                    type="button" 
+                    className="btn btn-secondary" 
+                    onClick={() => fileInputRef.current?.click()}
+                  >
+                    Subir Archivo
+                  </button>
+                </>
+              )}
+            </div>
+          </>
+        )}
       </div>
       
       {/* Canvas oculto para la captura */}

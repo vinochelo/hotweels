@@ -661,6 +661,8 @@ export default function App() {
               onScanResult={handleScanResult} 
               serverUrl={SERVER_URL} 
               geminiKey={geminiKey}
+              collectionId={collectionId}
+              onCarSaved={fetchCars}
             />
           </div>
         )}
