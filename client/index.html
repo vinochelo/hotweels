@@ -11,17 +11,20 @@
     <meta name="keywords" content="hot wheels, coleccionismo, escáner ia, identificación de autos, inventario compartido, treasure hunt" />
     <meta name="author" content="Antigravity AI" />
     
-    <!-- PWA Config -->
+    <!-- PWA Config (Desactivado Service Worker para evitar conflictos de caché y pantallas en negro) -->
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#ff3300" />
     <script>
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').then(reg => {
-            console.log('Servidor PWA registrado con éxito!');
-          }).catch(err => {
-            console.error('Fallo al registrar el SW de la PWA: ', err);
-          });
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (let registration of registrations) {
+            registration.unregister().then(function(boolean) {
+              if (boolean) {
+                console.log('Service Worker obsoleto eliminado con éxito.');
+                window.location.reload(); // Recargar una vez para limpiar la caché
+              }
+            });
+          }
         });
       }
     </script>

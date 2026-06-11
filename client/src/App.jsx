@@ -67,20 +67,62 @@ export default function App() {
     initializeCollection();
   }, []);
 
-  // Cargar lista de autos de la colección activa
+  // Cargar lista de autos de la colección activa (con respaldo local y restauración automática ante reinicios de Render)
   const fetchCars = useCallback(async () => {
     if (!collectionId) return;
     
     try {
       const res = await fetch(`${SERVER_URL}/api/collection/${collectionId}`);
       const data = await res.json();
-      setCars(data.cars || []);
+      const serverCars = data.cars || [];
+      
+      // Si el servidor nos devuelve una lista vacía para una colección que localmente sabemos que tenía autos,
+      // significa que el disco efímero de Render se reinició. ¡Restauramos la colección al servidor!
+      const localBackup = localStorage.getItem('backup_collection_' + collectionId);
+      if (serverCars.length === 0 && localBackup) {
+        const backupCars = JSON.parse(localBackup);
+        if (backupCars.length > 0) {
+          console.log("Detectado reinicio de servidor de Render. Restaurando colección desde copia de seguridad local...");
+          // Restaurar cada auto en el servidor
+          for (const car of backupCars) {
+            await fetch(`${SERVER_URL}/api/collection/${collectionId}/add`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(car)
+            });
+          }
+          // Volver a pedir la lista actualizada al servidor
+          const retryRes = await fetch(`${SERVER_URL}/api/collection/${collectionId}`);
+          const retryData = await retryRes.json();
+          setCars(retryData.cars || []);
+          return;
+        }
+      }
+
+      setCars(serverCars);
+
+      // Si tenemos autos válidos del servidor, actualizamos nuestro respaldo local
+      if (serverCars.length > 0) {
+        localStorage.setItem('backup_collection_' + collectionId, JSON.stringify(serverCars));
+      }
     } catch (err) {
-      console.error("Error cargando autos de la colección:", err);
+      console.error("Error cargando autos de la colección (cargando copia de seguridad local):", err);
+      // Fallback: Si el servidor falla o no hay conexión, cargar el respaldo local
+      const localBackup = localStorage.getItem('backup_collection_' + collectionId);
+      if (localBackup) {
+        setCars(JSON.parse(localBackup));
+      }
     } finally {
       setLoading(false);
     }
   }, [collectionId]);
+
+  // Resguardar la colección localmente cuando cambie (solo si no está cargando para no pisar el respaldo al iniciar)
+  useEffect(() => {
+    if (!loading && collectionId) {
+      localStorage.setItem('backup_collection_' + collectionId, JSON.stringify(cars));
+    }
+  }, [cars, collectionId, loading]);
 
   // Cargar autos al cambiar de ID de colección o vista
   useEffect(() => {
