@@ -7,18 +7,34 @@ export default function GuiaTH() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const filteredItems = thGuideData.filter(item => {
-    const matchesType = typeFilter === 'all' || item.type === typeFilter;
-    const matchesYear = yearFilter === 'all' || item.year.toString() === yearFilter;
-    const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                          item.series.toLowerCase().includes(queryCleaner(searchQuery)) ||
-                          item.toyNum.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesType && matchesYear && matchesSearch;
+  // Ordenar primero por año (más actuales arriba), luego por letra de caja (A-Q), y luego poner STH antes de TH
+  const sortedItems = [...thGuideData].sort((a, b) => {
+    if (b.year !== a.year) {
+      return b.year - a.year;
+    }
+    const caseCompare = (a.case || '').localeCompare(b.case || '');
+    if (caseCompare !== 0) {
+      return caseCompare;
+    }
+    if (a.type !== b.type) {
+      return a.type === 'STH' ? -1 : 1;
+    }
+    return 0;
   });
 
-  function queryCleaner(q) {
-    return q.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  }
+  const filteredItems = sortedItems.filter(item => {
+    const matchesType = typeFilter === 'all' || item.type === typeFilter;
+    const matchesYear = yearFilter === 'all' || item.year.toString() === yearFilter;
+    
+    const queryLower = searchQuery.toLowerCase().trim();
+    const matchesSearch = item.name.toLowerCase().includes(queryLower) ||
+                          item.series.toLowerCase().includes(queryLower) ||
+                          item.toyNum.toLowerCase().includes(queryLower) ||
+                          (item.case && ("caja " + item.case).toLowerCase().includes(queryLower)) ||
+                          (item.case && ("case " + item.case).toLowerCase().includes(queryLower));
+                          
+    return matchesType && matchesYear && matchesSearch;
+  });
 
   const getRarityBadge = (type) => {
     if (type === 'STH') {
@@ -135,7 +151,22 @@ export default function GuiaTH() {
               <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
                   {getRarityBadge(item.type)}
-                  <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 'bold' }}>{item.year}</span>
+                  <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
+                    {item.case && (
+                      <span style={{
+                        fontSize: '0.65rem',
+                        background: 'rgba(0, 230, 255, 0.1)',
+                        border: '1px solid rgba(0, 230, 255, 0.2)',
+                        padding: '1px 5px',
+                        borderRadius: '4px',
+                        color: '#00e6ff',
+                        fontWeight: 'bold'
+                      }}>
+                        Caja {item.case}
+                      </span>
+                    )}
+                    <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 'bold' }}>{item.year}</span>
+                  </div>
                 </div>
                 <h4 style={{ fontSize: '0.95rem', color: '#fff', marginBottom: '4px', lineHeight: 1.2 }}>
                   {item.name}
@@ -226,6 +257,14 @@ export default function GuiaTH() {
               <div>
                 <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.75rem' }}>Número de Colector</span>
                 <strong>{selectedItem.colNum}</strong>
+              </div>
+              <div>
+                <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.75rem' }}>Caja (Case Mix)</span>
+                <strong style={{ color: '#00e6ff' }}>{selectedItem.case ? `Caja ${selectedItem.case}` : 'N/A'}</strong>
+              </div>
+              <div>
+                <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.75rem' }}>Año de Lanzamiento</span>
+                <strong>{selectedItem.year}</strong>
               </div>
               <div style={{ gridColumn: '1 / -1' }}>
                 <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.75rem' }}>Color de Carrocería</span>

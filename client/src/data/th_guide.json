@@ -7,7 +7,8 @@
     "color": "Black",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/ChevroletFleetline.jpg/revision/latest?cb=20231012052604"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/ChevroletFleetline.jpg/revision/latest?cb=20231012052604",
+    "case": "A"
   },
   {
     "toyNum": "HTF16",
@@ -17,7 +18,8 @@
     "color": "Black",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/80/WorldTourFare.jpg/revision/latest?cb=20231117073319"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/80/WorldTourFare.jpg/revision/latest?cb=20231117073319",
+    "case": "B"
   },
   {
     "toyNum": "HTF17",
@@ -27,7 +29,8 @@
     "color": "Pink",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/HWTooligan.jpg/revision/latest?cb=20231217070915"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/HWTooligan.jpg/revision/latest?cb=20231217070915",
+    "case": "C"
   },
   {
     "toyNum": "HTF18",
@@ -37,7 +40,8 @@
     "color": "Lavender",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/31/2024_Custom_%2753_Chevy.jpg/revision/latest?cb=20250128164802"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/31/2024_Custom_%2753_Chevy.jpg/revision/latest?cb=20250128164802",
+    "case": "D"
   },
   {
     "toyNum": "HTF19",
@@ -47,7 +51,8 @@
     "color": "Black",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/12/2024_Batman_Thunt_Left_Side.JPG/revision/latest?cb=20250307022944"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/12/2024_Batman_Thunt_Left_Side.JPG/revision/latest?cb=20250307022944",
+    "case": "E"
   },
   {
     "toyNum": "HTF20",
@@ -57,7 +62,8 @@
     "color": "Dark blue",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/82/2024_Ford_Mustang_Mach-E_1400.jpg/revision/latest?cb=20250128164901"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/82/2024_Ford_Mustang_Mach-E_1400.jpg/revision/latest?cb=20250128164901",
+    "case": "F"
   },
   {
     "toyNum": "HTF21",
@@ -67,7 +73,8 @@
     "color": "Yellow",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5e/2024_Draggin_Wagon.jpg/revision/latest?cb=20250128164924"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5e/2024_Draggin_Wagon.jpg/revision/latest?cb=20250128164924",
+    "case": "G"
   },
   {
     "toyNum": "HTF22",
@@ -77,7 +84,8 @@
     "color": "Matte blue",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5e/ArtPassion.jpg/revision/latest?cb=20240409120630"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5e/ArtPassion.jpg/revision/latest?cb=20240409120630",
+    "case": "H"
   },
   {
     "toyNum": "HTF23",
@@ -87,7 +95,8 @@
     "color": "Dark gray",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/bd/HondaMetroBike.jpg/revision/latest?cb=20240908133958"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/bd/HondaMetroBike.jpg/revision/latest?cb=20240908133958",
+    "case": "J"
   },
   {
     "toyNum": "HTF24",
@@ -97,7 +106,8 @@
     "color": "White",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/31/2024_Bone_Shaker.jpg/revision/latest?cb=20250128164950"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/31/2024_Bone_Shaker.jpg/revision/latest?cb=20250128164950",
+    "case": "K"
   },
   {
     "toyNum": "HTF25",
@@ -107,7 +117,8 @@
     "color": "Blue",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e0/CarDeAsada.jpg/revision/latest?cb=20240619125554"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e0/CarDeAsada.jpg/revision/latest?cb=20240619125554",
+    "case": "L"
   },
   {
     "toyNum": "HTF26",
@@ -117,7 +128,8 @@
     "color": "White",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg/revision/latest?cb=20240702101421"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f3/FordTransitFlowerVan.jpg/revision/latest?cb=20240702101421",
+    "case": "M"
   },
   {
     "toyNum": "HTF28",
@@ -127,7 +139,8 @@
     "color": "[[ZAMAC]]",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/48/RollingDeLorean.jpg/revision/latest?cb=20240803080955"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/48/RollingDeLorean.jpg/revision/latest?cb=20240803080955",
+    "case": "N"
   },
   {
     "toyNum": "HTB02",
@@ -137,7 +150,8 @@
     "color": "Black",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/89/CelebrationImpala.jpg/revision/latest?cb=20241013021328"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/89/CelebrationImpala.jpg/revision/latest?cb=20241013021328",
+    "case": "P"
   },
   {
     "toyNum": "HTF29",
@@ -147,7 +161,8 @@
     "color": "Burgundy",
     "type": "TH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/2f/STH.png/revision/latest?cb=20230422012711"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/2f/STH.png/revision/latest?cb=20230422012711",
+    "case": "Q"
   },
   {
     "toyNum": "HTF30",
@@ -155,9 +170,10 @@
     "series": "Factory Fresh Mini Collection (2024)",
     "name": "Ford Escort RS2000",
     "color": "[[Spectraflame]] Green",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a4/2024_STH_A_CASE_FOERD_ESCORT_RS2000.jpg/revision/latest?cb=20230926075432"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a4/2024_STH_A_CASE_FOERD_ESCORT_RS2000.jpg/revision/latest?cb=20230926075432",
+    "case": "A"
   },
   {
     "toyNum": "HTF31",
@@ -165,9 +181,10 @@
     "series": "HW Dream Garage Mini Collection (2024)",
     "name": "'18 Camaro SS",
     "color": "[[Spectraflame]] Black",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/2024_STH_B_CASE_18_Camaro_SS.jpg/revision/latest?cb=20230926075655"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/2024_STH_B_CASE_18_Camaro_SS.jpg/revision/latest?cb=20230926075655",
+    "case": "B"
   },
   {
     "toyNum": "HTF32",
@@ -175,9 +192,10 @@
     "series": "HW Roadsters Mini Collection (2024)",
     "name": "BMW 507",
     "color": "[[Spectraflame]] ''Gelb''",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7e/2024_STH_C_CASE_BMW_507.jpg/revision/latest?cb=20231030114324"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7e/2024_STH_C_CASE_BMW_507.jpg/revision/latest?cb=20231030114324",
+    "case": "C"
   },
   {
     "toyNum": "HTF33",
@@ -185,9 +203,10 @@
     "series": "HW Modified Mini Collection (2024)",
     "name": "'89 Mercedes-Benz 560 SEC AMG",
     "color": "[[Spectraflame]] Red",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7c/2024_STH_D_CASE_benz_560.jpg/revision/latest?cb=20240102075715"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7c/2024_STH_D_CASE_benz_560.jpg/revision/latest?cb=20240102075715",
+    "case": "D"
   },
   {
     "toyNum": "HTF34",
@@ -195,9 +214,10 @@
     "series": "Compact Kings Mini Collection (2024)",
     "name": "'60s Fiat 500D Modificado",
     "color": "[[Spectraflame]] gold",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b4/2024_STH_Fiat.jpg/revision/latest?cb=20250402024252"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b4/2024_STH_Fiat.jpg/revision/latest?cb=20250402024252",
+    "case": "E"
   },
   {
     "toyNum": "HTF35",
@@ -205,9 +225,10 @@
     "series": "HW Hot Trucks Mini Collection (2024)",
     "name": "'71 El Camino",
     "color": "[[Spectraflame]] purple",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1b/2024_STH_E_CASE_EL_CAMINO.jpg/revision/latest?cb=20240102075930"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1b/2024_STH_E_CASE_EL_CAMINO.jpg/revision/latest?cb=20240102075930",
+    "case": "F"
   },
   {
     "toyNum": "HTF36",
@@ -215,9 +236,10 @@
     "series": "HW Turbo Mini Collection (2024)",
     "name": "Audi 90 quattro",
     "color": "[[Spectraflame]] dark blue",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/ab/AUDI_90_QUATTRO.jpg/revision/latest?cb=20240302114415"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/ab/AUDI_90_QUATTRO.jpg/revision/latest?cb=20240302114415",
+    "case": "G"
   },
   {
     "toyNum": "HTF37",
@@ -225,9 +247,10 @@
     "series": "HW Reverse Rake Mini Collection (2024)",
     "name": "Volvo P1800 Gasser",
     "color": "[[Spectraflame]] blue",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e1/VOLVO_P1800_GASSER01.jpg/revision/latest?cb=20240419014955"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e1/VOLVO_P1800_GASSER01.jpg/revision/latest?cb=20240419014955",
+    "case": "H"
   },
   {
     "toyNum": "HTF38",
@@ -235,9 +258,10 @@
     "series": "HW J-Imports Mini Collection (2024)",
     "name": "Mitsubishi Pajero Evolution",
     "color": "[[Spectraflame]] copper",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/82/PAJERO.jpg/revision/latest?cb=20240418132452"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/82/PAJERO.jpg/revision/latest?cb=20240418132452",
+    "case": "J"
   },
   {
     "toyNum": "HTF39",
@@ -245,9 +269,10 @@
     "series": "HW Race Day Mini Collection (2024)",
     "name": "Mazda 787B",
     "color": "[[Spectraflame]] orange",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Charge787BSTH.jpg/revision/latest?cb=20240619125741"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Charge787BSTH.jpg/revision/latest?cb=20240619125741",
+    "case": "K"
   },
   {
     "toyNum": "HTF40",
@@ -255,9 +280,10 @@
     "series": "Muscle Mania Mini Collection (2024)",
     "name": "'77 Pontiac Firebird T/A",
     "color": "[[Spectraflame]] black",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/78/Pontiac_firebird.jpg/revision/latest?cb=20240612115511"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/78/Pontiac_firebird.jpg/revision/latest?cb=20240612115511",
+    "case": "L"
   },
   {
     "toyNum": "HTF41",
@@ -265,9 +291,10 @@
     "series": "HW: The '90s Mini Collection (2024)",
     "name": "'96 Nissan 180SX Type X",
     "color": "[[Spectraflame|Spectraflane]] Dark Dlue",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e1/96_Nissan_180sx_type_R.jpg/revision/latest?cb=20240612115602"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e1/96_Nissan_180sx_type_R.jpg/revision/latest?cb=20240612115602",
+    "case": "M"
   },
   {
     "toyNum": "HTF42",
@@ -275,9 +302,10 @@
     "series": "Quarter Mile Heroes Mini Collection (2024)",
     "name": "Celero GT",
     "color": "[[Spectraflame]] purple",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/42/Tiaozi-%E5%A1%9E%E7%BD%97GT%E8%B6%85%E5%AE%9D.jpg/revision/latest?cb=20240711015354"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/42/Tiaozi-%E5%A1%9E%E7%BD%97GT%E8%B6%85%E5%AE%9D.jpg/revision/latest?cb=20240711015354",
+    "case": "N"
   },
   {
     "toyNum": "HTF43",
@@ -285,9 +313,10 @@
     "series": "HW Exotics Mini Collection (2024)",
     "name": "Lamborghini Huracán LP 620-2 Super Trofeo",
     "color": "[[Spectraflame]] red",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1b/2025_Lamborghini_STH.jpg/revision/latest?cb=20250704124914"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1b/2025_Lamborghini_STH.jpg/revision/latest?cb=20250704124914",
+    "case": "P"
   },
   {
     "toyNum": "HTF44",
@@ -295,9 +324,10 @@
     "series": "Then and Now Mini Collection (2024)",
     "name": "'83 Chevy Silverado",
     "color": "[[Spectraflame]] blue",
-    "type": "TH",
+    "type": "STH",
     "year": 2024,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/95/2024_Then_and_Now_STH.jpg/revision/latest?cb=20250223082848"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/95/2024_Then_and_Now_STH.jpg/revision/latest?cb=20250223082848",
+    "case": "Q"
   },
   {
     "toyNum": "JBC20",
@@ -307,7 +337,8 @@
     "color": "Red",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/83/FirstResponseSupervan.jpg/revision/latest?cb=20241111104248"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/83/FirstResponseSupervan.jpg/revision/latest?cb=20241111104248",
+    "case": "A"
   },
   {
     "toyNum": "JBC21",
@@ -317,7 +348,8 @@
     "color": "Brown",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/98/Fish%27dandChip%27d.jpg/revision/latest?cb=20241109071953"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/98/Fish%27dandChip%27d.jpg/revision/latest?cb=20241109071953",
+    "case": "B"
   },
   {
     "toyNum": "JBC22",
@@ -327,7 +359,8 @@
     "color": "Metalflake plum pearl",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/8f/LubetskyMailedIt.jpg/revision/latest?cb=20241125121043"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/8f/LubetskyMailedIt.jpg/revision/latest?cb=20241125121043",
+    "case": "C"
   },
   {
     "toyNum": "JBC23",
@@ -337,7 +370,8 @@
     "color": "Red",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/86/TreasurePedal.jpg/revision/latest?cb=20250113141530"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/86/TreasurePedal.jpg/revision/latest?cb=20250113141530",
+    "case": "D"
   },
   {
     "toyNum": "JBC24",
@@ -347,7 +381,8 @@
     "color": "Transparent Plum",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/65/2025_Rig_Storm.jpg/revision/latest?cb=20250409033332"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/65/2025_Rig_Storm.jpg/revision/latest?cb=20250409033332",
+    "case": "E"
   },
   {
     "toyNum": "JBC25",
@@ -357,7 +392,8 @@
     "color": "Teal",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/58/1985HondaCity.jpg/revision/latest?cb=20250120090624"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/58/1985HondaCity.jpg/revision/latest?cb=20250120090624",
+    "case": "F"
   },
   {
     "toyNum": "JBC26",
@@ -367,7 +403,8 @@
     "color": "Brown",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/TreasureBurner.jpg/revision/latest?cb=20250224122255"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/TreasureBurner.jpg/revision/latest?cb=20250224122255",
+    "case": "G"
   },
   {
     "toyNum": "JBC28",
@@ -377,7 +414,8 @@
     "color": "Metalflake Plum Pearl",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1d/2025_Chill_Mill_%28HWLR%29.jpg/revision/latest?cb=20250608031129"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1d/2025_Chill_Mill_%28HWLR%29.jpg/revision/latest?cb=20250608031129",
+    "case": "H"
   },
   {
     "toyNum": "JBC27",
@@ -387,7 +425,8 @@
     "color": "Lime green",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/2f/LeafNISMO.jpg/revision/latest?cb=20250416123651"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/2f/LeafNISMO.jpg/revision/latest?cb=20250416123651",
+    "case": "J"
   },
   {
     "toyNum": "JBC29",
@@ -397,7 +436,8 @@
     "color": "Metalflake navy blue",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/2025_General_Motors_Chevroletor.jpg/revision/latest?cb=20250713035904"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/2025_General_Motors_Chevroletor.jpg/revision/latest?cb=20250713035904",
+    "case": "K"
   },
   {
     "toyNum": "JBC30",
@@ -407,7 +447,8 @@
     "color": "Orange",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a9/1968HondaS800.jpg/revision/latest?cb=20250716115057"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a9/1968HondaS800.jpg/revision/latest?cb=20250716115057",
+    "case": "L"
   },
   {
     "toyNum": "JBC31",
@@ -417,7 +458,8 @@
     "color": "Green",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b1/2025_Shark_Bite.jpg/revision/latest?cb=20251009182807"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b1/2025_Shark_Bite.jpg/revision/latest?cb=20251009182807",
+    "case": "M"
   },
   {
     "toyNum": "JBC32",
@@ -427,7 +469,8 @@
     "color": "Green",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9b/TriumphRaceBike.jpg/revision/latest?cb=20250715130457"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9b/TriumphRaceBike.jpg/revision/latest?cb=20250715130457",
+    "case": "N"
   },
   {
     "toyNum": "JBC33",
@@ -437,7 +480,8 @@
     "color": "Metalflake silver",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/63/1984quattro.jpg/revision/latest?cb=20250930223658"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/63/1984quattro.jpg/revision/latest?cb=20250930223658",
+    "case": "P"
   },
   {
     "toyNum": "JBC34",
@@ -447,7 +491,8 @@
     "color": "Gray",
     "type": "TH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/ae/2025_Triumph_TR6.jpg/revision/latest?cb=20260121154637"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/ae/2025_Triumph_TR6.jpg/revision/latest?cb=20260121154637",
+    "case": "Q"
   },
   {
     "toyNum": "JBC35",
@@ -457,7 +502,8 @@
     "color": "[[Spectraflame]] seafoam green",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/c/cf/%2787_AUDI_AUQTTRO.jpg/revision/latest?cb=20250811141324"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/c/cf/%2787_AUDI_AUQTTRO.jpg/revision/latest?cb=20250811141324",
+    "case": "A"
   },
   {
     "toyNum": "JBC36",
@@ -467,7 +513,8 @@
     "color": "[[Spectraflame]] purple",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/8d/HIROHATA_MERC.jpg/revision/latest?cb=20250811141417"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/8/8d/HIROHATA_MERC.jpg/revision/latest?cb=20250811141417",
+    "case": "B"
   },
   {
     "toyNum": "JBC37",
@@ -477,7 +524,8 @@
     "color": "[[Spectraflame]] black",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e3/HiRollerII.jpg/revision/latest?cb=20250811141535"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e3/HiRollerII.jpg/revision/latest?cb=20250811141535",
+    "case": "C"
   },
   {
     "toyNum": "JBC38",
@@ -487,7 +535,8 @@
     "color": "[[Spectraflame]] blue",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d2/1975_Datsun_Sunny_Truck_%28B120%29.jpg/revision/latest?cb=20250811141620"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d2/1975_Datsun_Sunny_Truck_%28B120%29.jpg/revision/latest?cb=20250811141620",
+    "case": "D"
   },
   {
     "toyNum": "JBC39",
@@ -497,7 +546,8 @@
     "color": "[[Spectraflame]] yellow",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/3b/Aston_Martin_DB4GT_High-Speed_Edition.jpg/revision/latest?cb=20250811141710"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/3/3b/Aston_Martin_DB4GT_High-Speed_Edition.jpg/revision/latest?cb=20250811141710",
+    "case": "E"
   },
   {
     "toyNum": "JBC40",
@@ -507,7 +557,8 @@
     "color": "[[Spectraflame]] black",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/29/20Jeep_Gladiator.jpg/revision/latest?cb=20250811142017"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/29/20Jeep_Gladiator.jpg/revision/latest?cb=20250811142017",
+    "case": "F"
   },
   {
     "toyNum": "JBC41",
@@ -517,7 +568,8 @@
     "color": "[[Spectraflame]] green",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/PORSCHE_911_RALLYE.jpg/revision/latest?cb=20250811142214"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/PORSCHE_911_RALLYE.jpg/revision/latest?cb=20250811142214",
+    "case": "G"
   },
   {
     "toyNum": "JBC42",
@@ -527,7 +579,8 @@
     "color": "[[Spectraflame]] red",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e5/71_Mustang_Funny_Car.jpg/revision/latest?cb=20250811142457"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/e5/71_Mustang_Funny_Car.jpg/revision/latest?cb=20250811142457",
+    "case": "H"
   },
   {
     "toyNum": "JBC43",
@@ -537,7 +590,8 @@
     "color": "[[Spectraflame]] black",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/00/%E2%80%9862_Corvette_Gasser.jpg/revision/latest?cb=20250417135536"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/00/%E2%80%9862_Corvette_Gasser.jpg/revision/latest?cb=20250417135536",
+    "case": "J"
   },
   {
     "toyNum": "JBC44",
@@ -547,7 +601,8 @@
     "color": "[[Spectraflame]] ''Volcano Orange''",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/41/McLaren_Speedtail.jpg/revision/latest?cb=20250417135729"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/4/41/McLaren_Speedtail.jpg/revision/latest?cb=20250417135729",
+    "case": "K"
   },
   {
     "toyNum": "JBC45",
@@ -557,7 +612,8 @@
     "color": "[[Spectraflame]] ''Viola''",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d9/%2794_Bugatti_EB110_SS.jpg/revision/latest?cb=20250611142657"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d9/%2794_Bugatti_EB110_SS.jpg/revision/latest?cb=20250611142657",
+    "case": "L"
   },
   {
     "toyNum": "JBC46",
@@ -567,7 +623,8 @@
     "color": "[[Spectraflame]] red",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/%E2%80%9873_HONDA_CIVICE_CUSTOM.jpg/revision/latest?cb=20250611142344"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/15/%E2%80%9873_HONDA_CIVICE_CUSTOM.jpg/revision/latest?cb=20250611142344",
+    "case": "M"
   },
   {
     "toyNum": "JBC47",
@@ -577,7 +634,8 @@
     "color": "[[Spectraflame]] pink",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/%2720_Dodge_Charger_Hellcat.jpg/revision/latest?cb=20250619120143"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/%2720_Dodge_Charger_Hellcat.jpg/revision/latest?cb=20250619120143",
+    "case": "N"
   },
   {
     "toyNum": "JBC48",
@@ -587,7 +645,8 @@
     "color": "[[Spectraflame]] green",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7f/BMW_M3_WAGON.jpg/revision/latest?cb=20250811141045"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7f/BMW_M3_WAGON.jpg/revision/latest?cb=20250811141045",
+    "case": "P"
   },
   {
     "toyNum": "JBC49",
@@ -597,7 +656,8 @@
     "color": "[[Spectraflame]] Gulf Racing Blue",
     "type": "STH",
     "year": 2025,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/c/c0/FORD_RS200.jpg/revision/latest?cb=20250811141216"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/c/c0/FORD_RS200.jpg/revision/latest?cb=20250811141216",
+    "case": "Q"
   },
   {
     "toyNum": "JJM00",
@@ -607,7 +667,8 @@
     "color": "Metalflake Purple",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7e/BuickRegal.jpg/revision/latest?cb=20251101092453"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7e/BuickRegal.jpg/revision/latest?cb=20251101092453",
+    "case": "A"
   },
   {
     "toyNum": "JJM01",
@@ -617,7 +678,8 @@
     "color": "White",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a5/1992Viper.jpg/revision/latest?cb=20251015122319"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/a/a5/1992Viper.jpg/revision/latest?cb=20251015122319",
+    "case": "B"
   },
   {
     "toyNum": "JJM02",
@@ -627,7 +689,8 @@
     "color": "Black",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7f/ElectroSilhouetteTH.jpeg/revision/latest?cb=20251221174800"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/7/7f/ElectroSilhouetteTH.jpeg/revision/latest?cb=20251221174800",
+    "case": "C"
   },
   {
     "toyNum": "JJM03",
@@ -637,7 +700,8 @@
     "color": "Green",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/59/HotSauce.jpg/revision/latest?cb=20251216110138"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/59/HotSauce.jpg/revision/latest?cb=20251216110138",
+    "case": "D"
   },
   {
     "toyNum": "JJM04",
@@ -647,7 +711,8 @@
     "color": "Neon green",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d7/HotConez.jpg/revision/latest?cb=20260103111850"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/d/d7/HotConez.jpg/revision/latest?cb=20260103111850",
+    "case": "E"
   },
   {
     "toyNum": "JJM05",
@@ -657,7 +722,8 @@
     "color": "Yellow",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/2016FordGTLMGTE.jpg/revision/latest?cb=20260121131507"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/2016FordGTLMGTE.jpg/revision/latest?cb=20260121131507",
+    "case": "F"
   },
   {
     "toyNum": "JJM06",
@@ -667,7 +733,8 @@
     "color": "Metalflake Gold",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f0/THJetZ.jpg/revision/latest?cb=20260303121401"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/f/f0/THJetZ.jpg/revision/latest?cb=20260303121401",
+    "case": "G"
   },
   {
     "toyNum": "JJM07",
@@ -677,7 +744,8 @@
     "color": "Gray",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/bc/%27ToonedTrashTruck.jpg/revision/latest?cb=20260311130221"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/bc/%27ToonedTrashTruck.jpg/revision/latest?cb=20260311130221",
+    "case": "H"
   },
   {
     "toyNum": "JJM08",
@@ -687,7 +755,8 @@
     "color": "Blue",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/08/ModsAmaru.jpg/revision/latest?cb=20260425093332"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/08/ModsAmaru.jpg/revision/latest?cb=20260425093332",
+    "case": "J"
   },
   {
     "toyNum": "JJM09",
@@ -697,7 +766,8 @@
     "color": "White",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5f/CupcakeRacer.jpg/revision/latest?cb=20260513083806"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/5f/CupcakeRacer.jpg/revision/latest?cb=20260513083806",
+    "case": "K"
   },
   {
     "toyNum": "JJM10",
@@ -707,7 +777,8 @@
     "color": "White",
     "type": "TH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1d/MadManganese.jpg/revision/latest?cb=20260530100101"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/1/1d/MadManganese.jpg/revision/latest?cb=20260530100101",
+    "case": "L"
   },
   {
     "toyNum": "JJM15",
@@ -717,7 +788,8 @@
     "color": "[[Spectraflame]] red",
     "type": "STH",
     "year": 2026,
-    "imageUrl": ""
+    "imageUrl": "",
+    "case": "A"
   },
   {
     "toyNum": "JJM16",
@@ -727,7 +799,8 @@
     "color": "[[Spectraflame]] ''Holographic Blue''",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/Ford_Mustang_GTD.jpg/revision/latest?cb=20251031012434"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/Ford_Mustang_GTD.jpg/revision/latest?cb=20251031012434",
+    "case": "B"
   },
   {
     "toyNum": "JJM17",
@@ -737,7 +810,8 @@
     "color": "[[Spectraflame]] ''Grigio Nardo''",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b7/NardoF40Comp.jpg/revision/latest?cb=20251111083240"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b7/NardoF40Comp.jpg/revision/latest?cb=20251111083240",
+    "case": "C"
   },
   {
     "toyNum": "JJM18",
@@ -747,7 +821,8 @@
     "color": "[[Spectraflame]] cyan",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/ImpalaSTH.jpg/revision/latest?cb=20251126104959"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/9/9f/ImpalaSTH.jpg/revision/latest?cb=20251126104959",
+    "case": "D"
   },
   {
     "toyNum": "JJM19",
@@ -757,7 +832,8 @@
     "color": "[[Spectraflame]] hot pink",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/51/2026ML-116B_%28Large%29.JPG/revision/latest?cb=20260208034953"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/5/51/2026ML-116B_%28Large%29.JPG/revision/latest?cb=20260208034953",
+    "case": "E"
   },
   {
     "toyNum": "JJM20",
@@ -767,7 +843,8 @@
     "color": "[[Spectraflame]] teal",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/09/2026H_tiaozi.jpg/revision/latest?cb=20251129132835"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/09/2026H_tiaozi.jpg/revision/latest?cb=20251129132835",
+    "case": "F"
   },
   {
     "toyNum": "JJM21",
@@ -777,7 +854,8 @@
     "color": "[[Spectraflame]] Otto Blue",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/23/STH_OTTO_o4.jpg/revision/latest?cb=20260207140514"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/23/STH_OTTO_o4.jpg/revision/latest?cb=20260207140514",
+    "case": "G"
   },
   {
     "toyNum": "JJM22",
@@ -787,7 +865,8 @@
     "color": "[[Spectraflame]] orange",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/eb/LotusEliseSTH.jpg/revision/latest?cb=20260303121631"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/e/eb/LotusEliseSTH.jpg/revision/latest?cb=20260303121631",
+    "case": "H"
   },
   {
     "toyNum": "JJM23",
@@ -797,7 +876,8 @@
     "color": "[[Spectraflame]] blue",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/22/STHImpreza.jpg/revision/latest?cb=20260410125346"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/2/22/STHImpreza.jpg/revision/latest?cb=20260410125346",
+    "case": "J"
   },
   {
     "toyNum": "JJM25",
@@ -807,7 +887,8 @@
     "color": "[[Spectraflame]] black",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/01/INA.jpg/revision/latest?cb=20250129021727"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/0/01/INA.jpg/revision/latest?cb=20250129021727",
+    "case": "K"
   },
   {
     "toyNum": "JJM26",
@@ -817,7 +898,8 @@
     "color": "[[Spectraflame]] black",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest?cb=20151025125428"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest?cb=20151025125428",
+    "case": "L"
   },
   {
     "toyNum": "JJM24",
@@ -827,7 +909,8 @@
     "color": "[[Spectraflame]] root beer",
     "type": "STH",
     "year": 2026,
-    "imageUrl": ""
+    "imageUrl": "",
+    "case": "M"
   },
   {
     "toyNum": "JJM27",
@@ -837,6 +920,7 @@
     "color": "[[Spectraflame]] purple",
     "type": "STH",
     "year": 2026,
-    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest?cb=20151025125428"
+    "imageUrl": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest?cb=20151025125428",
+    "case": "N"
   }
 ]
